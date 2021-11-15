@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema>
+<xs:element name="library">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="vehicles" minOccurs="0" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="title" type="xs:string"/>
+<xs:element name="format" type="xs:string"/>
+</xs:sequence>
+<xs:attribute name="id"
+type="xs:integer" use="required"/>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

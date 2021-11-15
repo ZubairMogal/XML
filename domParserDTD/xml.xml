@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<categories>
+<vehicles id="1">
+<title> Types of Cars</title>
+<format>four wheelers</format>
+</vehicles>
+<vehicles id="2">
+<title> Types of Motorcycles</title>
+<format>two wheelers</format>
+</vehicles>
+</categories>

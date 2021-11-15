@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT library (vehicles+)>
+<!ELEMENT vehicles (title, format, type)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT format (#PCDATA)>
+<!ATTLIST vehicles id CDATA #REQUIRED>
